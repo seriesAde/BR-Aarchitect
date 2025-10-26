@@ -50,6 +50,7 @@
     width: 80%;
     margin: 0 auto;
     max-width: 1500px;
+    padding-top: 50px;
 }
 
 .banner {
@@ -60,6 +61,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 800px;
 
 }
 
@@ -170,10 +172,13 @@
 .about_img {
     width: 100%;
     height: auto;
+    filter: grayscale(80%);
 }
+
 
 .about_img img {
     width: 100%;
+
 }
 
 .card h4 {
